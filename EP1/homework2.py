@@ -1,0 +1,15 @@
+import turtle
+tao = turtle.Pen()
+tao.shape('turtle')
+tao.speed(0)
+tao.goto(0,-200)
+tao.goto(200,0)
+tao.goto(-200,0)
+tao.goto(0,-200)
+for i in range(70):
+    tao.circle(i*1)
+    tao.color("green")
+    tao.circle(i*2)
+    tao.color("red")
+    tao.circle(i*3)
+    tao.color("yellow")
